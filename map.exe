@@ -1,0 +1,18 @@
+# 1 "C:\\Users\\rouna\\OneDrive\\Desktop\\Coding_spoon\\.vscode\\coding_pratices\\map.cpp"
+# 1 "C:\\Users\\rouna\\OneDrive\\Desktop\\Coding_spoon\\.vscode\\coding_pratices//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\Users\\rouna\\OneDrive\\Desktop\\Coding_spoon\\.vscode\\coding_pratices\\map.cpp"
+int main()
+{
+    map<char, int> mp;
+    mp['a'] = 10;
+    mp['b'] = 20;
+    mp['c'] = 30;
+    if (mp.find('c') != mp.end())
+    {
+        cout << " present";
+    }
+# 24 "C:\\Users\\rouna\\OneDrive\\Desktop\\Coding_spoon\\.vscode\\coding_pratices\\map.cpp"
+    return 0;
+}
